@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+		<link rel="shortcut icon" href="info.ico" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			type="text/javascript"
+			src="https://code.jquery.com/jquery-3.2.1.min.js"
+		></script>
+		<script
+			type="text/javascript"
+			src="http:///ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"
+		></script>
+		<script
+			type="text/javascript"
+			src="{% static 'scripts/script.js' %}"
+		></script>
+		<title>Гаджеты 21-го века</title>
+	</head>
+	<body>
+		<div id="button-up">
+			<span>Наверх</span>
+		</div>
+		<div class="navbar">
+			<a href="\index">Главная страница</a>
+			<a href="\main_info">Основная информация</a>
+			<div class="dropdown">
+				<button class="dropbtn">Гаджеты<i class="fa fa-caret-down"></i></button>
+				<div class="dropdown-content">
+					<a href="\VRAR">VR/AR</a>
+					<a href="\Smartphone">Смартфоны</a>
+					<a href="\Segway">Segway</a>
+					<a href="\tablet">Планшеты</a>
+					<a href="\3dprinter">3D Принтеры</a>
+				</div>
+			</div>
+		</div>
+		<h2 class="gadget">Гаджеты</h2>
+		<div class="info">
+			<p align="justify">
+				В наше время, наверное, каждый знает, что такое гаджет. «Умное
+				устройство, выполняющее некоторые функции»... Какие? Ответ на этот
+				вопрос может быть очень обширным. Ведь существуют тысячи гаджетов с
+				разными функциями и методами использования. Постараемся немного
+				упорядочить известные нам виды и подвиды гаджетов, создав нечто, вроде
+				классификации. Для начала, попробуем разобраться в самом слове «Гаджет»
+			</p>
+			<p align="justify">
+				Гаджет (англ. gadget — принадлежность) это техническое приспособление (в
+				том числе с цифровыми технологиями), обладающее повышенной
+				функциональностью, но ограниченными возможностями (специализация).
+			</p>
+			<p align="justify">
+				Важно не путать «гаджет» и «устройство» в классическом значении этих
+				слов.
+			</p>
+			<p align="justify">
+				Устройство же - предмет или инструмент, использующийся для выполнения
+				определенной работы или/и достижения определенного результата. Так,
+				персональный компьютер и видеокамера – это два устройства. А, например,
+				геймерский джойстик или геликоптер-вертолет для камеры – это уже два
+				гаджета. Надеемся, Вы ощущаете разницу?
+			</p>
+			<p align="justify">
+				Во многих случаях сложно разделить эти два понятия, ведь они обозначают
+				практически одно и то же. Но главное – понимать, что любой гаджет -
+				устройство, но устройство - не всегда гаджет.
+			</p>
+		</div>
+		<h2 class="vid_text">
+			В видео, представленном ниже, показаны некоторые гаджеты, которые изменят
+			наш мир уже в XXI веке
+		</h2>
+		<center>
+			<iframe
+				class="vid"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/IiejLugS6Q0?start=26"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			></iframe>
+		</center>
+	</body>
+</html>
