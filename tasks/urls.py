@@ -4,6 +4,7 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
+    path('', views.index, name='index'),
     path('index', views.index, name='index'),
     path('3dprinter', views.d3printer, name='3dprinter'),
     path('main_info', views.main_info, name='main_info'),
